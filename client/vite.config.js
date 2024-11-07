@@ -8,7 +8,7 @@ export default defineConfig({
     port:3000,
     proxy:{
       '/api':{
-        target:'https://mern-chat-app-self-seven.vercel.app',
+        target:'http://localhost:5000',
         
       }
     }
